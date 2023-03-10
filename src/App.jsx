@@ -1,8 +1,11 @@
 import React from "react"
+import AboutMe from "./component/AboutMe"
 
 function App() {
   return (
-    <h1>Hello Wold</h1>
+    <>
+      <AboutMe />
+    </>
   )
 }
 
