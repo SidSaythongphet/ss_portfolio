@@ -4,6 +4,7 @@ const Skills = () => {
   return (
     <div id='skills' class='min-h-screen pt-28'>
       <h1 class='text-center text-6xl mb-10'>Skills</h1>
+      <div class='w-screen border-t-2 border-white'></div>
       <div class='flex justify-center'>
         <div class='flex justify-center items-center h-28 w-44 bg-slate-50 m-2 rounded-2xl'>
           <img class='h-20' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />  
