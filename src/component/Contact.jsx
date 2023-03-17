@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Contact = () => {
@@ -7,10 +8,14 @@ const Contact = () => {
       <h1 class='text-center text-6xl mb-10'>Contact</h1>
       <div class='flex justify-center'>
         <div class='flex justify-center items-center h-28 w-44 bg-slate-50 m-2 rounded-2xl hover:mt-1'>
-          <img class='h-16' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />  
+          <a href='https://www.linkedin.com/in/sid-saythongphet/' target='_blank' rel="noopener noreferrer">
+            <img class='h-16' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />  
+          </a>
         </div>
         <div class='flex justify-center items-center h-28 w-44 bg-slate-50 m-2 rounded-2xl hover:mt-1'>
-          <img class='h-16' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />  
+          <a href='https://github.com/SidSaythongphet' target='_blank' rel="noopener noreferrer">
+            <img class='h-16' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />  
+          </a>
         </div>
         <div class='flex justify-center items-center h-28 w-44 bg-slate-50 m-2 rounded-2xl hover:mt-1'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-16 h-16">
