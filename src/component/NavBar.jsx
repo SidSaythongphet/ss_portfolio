@@ -19,6 +19,11 @@ const NavBar = () => {
           SKILLS
         </h1>
       </Link>
+      <Link activeClass="active" to="projects" spy={true} smooth={true} duration={500}>
+        <h1 class='font-bold hover:cursor-pointer hover:underline'>
+          PROJECTS
+        </h1>
+      </Link>
       <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}>
         <h1 class='font-bold hover:cursor-pointer hover:underline'>
           CONTACT  
