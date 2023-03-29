@@ -2,9 +2,9 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div id='skills' class='min-h-screen pt-36'>
-      <h1 class='text-center text-6xl mb-10'>Skills</h1>
-      <div class='w-screen border-t-2 border-white'></div>
+    <div id='skills' class='flex flex-col min-h-screen pt-36'>
+      <h1 class='text-center text-6xl mb-10 w-screen'>Skills</h1>
+      <div class='self-center w-4/5 border-t-2 border-white pb-5'></div>
       <div class='flex justify-center'>
         <div class='grid grid-cols-3 gap-4 w-[60%] justify-items-center'>
           <div class='flex justify-center items-center h-36 w-60 bg-slate-50 m-2 rounded-2xl'>
