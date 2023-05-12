@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div id='aboutMe' class='flex flex-col min-h-screen pt-24 md:pt-36'>
       <h1 class='text-center text-4xl md:text-6xl mb-10 w-screen'>About Me</h1>
       <div class='self-center w-4/5 border-t-2 border-text2 pb-5'></div>
-      <div class='px-8 md:px-40 text-md md:text-xl'>
+      <div class='px-8 md:px-40 text-md md:text-xl mb-10'>
         <h1 class='md:text-3xl font-oxygen'>From dancer to developer!</h1>
         <h1 class='font-oxygen pt-5'>
           With nearly a decade of experience as a dancer, wellness coach and massage therapist, I have recently transitioned into the exciting world of software development.
