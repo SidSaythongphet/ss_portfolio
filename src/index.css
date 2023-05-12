@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-  background-color: black;
-  color:beige
+  background-color: #010d23;
+  color:#e19f41;
+  font-family: 'Caveat', cursive;
+  font-family: 'Oxygen', sans-serif;
 }
