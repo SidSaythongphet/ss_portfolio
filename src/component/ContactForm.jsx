@@ -37,12 +37,12 @@ const ContactForm = () => {
   }
 
   return (
-    <div class='flex justify-center'>
+    <div class='flex justify-center mx-5'>
       <form onSubmit={ handleSubmit }>
-        <input type='text' name='fullName' placeholder='Your Name' value={ formData.fullName } onChange={ handleChange } class='w-full text-black p-1'/>
-        <input type='email' name='email' placeholder='Email' value={ formData.email } onChange={ handleChange } class='w-full mt-3 text-black p-1'/>
-        <input type='text' name='message' placeholder='Message' value={ formData.message } onChange={ handleChange } class='w-full mt-3 h-40 text-black p-1'/>
-        <button onClick={ handleSubmit } class='bg-cyan-800 rounded-lg px-3 py-1'>Submit</button>
+        <input type='text' name='fullName' placeholder='Your Name' value={ formData.fullName } onChange={ handleChange } class='w-full text-black p-1 rounded-lg'/>
+        <input type='email' name='email' placeholder='Email' value={ formData.email } onChange={ handleChange } class='w-full mt-3 text-black p-1 rounded-lg'/>
+        <textarea type='text' name='message' placeholder='Message' value={ formData.message } onChange={ handleChange } class='w-full mt-3 h-40 text-black p-1 rounded-lg'/>
+        <button onClick={ handleSubmit } class='bg-accent text-text1 font-oxygen rounded-lg px-3 py-1'>Submit</button>
       </form>
     </div>
   )
