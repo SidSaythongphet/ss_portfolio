@@ -31,6 +31,9 @@ const Skills = () => {
           <div class='flex justify-center items-center h-36 w-full bg-slate-50 mt-2 rounded-2xl'>
             <img class='h-20' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" />  
           </div>
+          <div class='flex justify-center items-center h-36 w-full bg-slate-50 mt-2 rounded-2xl'>
+            <img class='h-20' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+          </div>
         </div>
       </div>
     </div>
