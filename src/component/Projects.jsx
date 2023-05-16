@@ -8,7 +8,7 @@ const Projects = () => {
       <div class='self-center w-4/5 border-t-2 border-text2 pb-5'></div>
       <div class='flex justify-center px-10 md:grid md:grid-cols-3'>
         <div class='relative h-full w-full md:col-start-2'>
-          <ReactPlayer url="https://youtu.be/ZfZubb0R174" controls={false} loop={true} playing={true}/>
+          <ReactPlayer url="https://youtu.be/ZfZubb0R174" controls={false} loop={true} playing={true} muted={true} width="100%"/>
           <div class='flex absolute inset-x-0 bottom-[-20] justify-around'>
             <h1 class='text-xl font-bold'>PLANNR APP</h1>
             <a href='https://plannr-app.onrender.com/' target='_blank' rel="noopener noreferrer">
